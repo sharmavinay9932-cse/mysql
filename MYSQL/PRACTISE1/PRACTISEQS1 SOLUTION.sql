@@ -1,0 +1,15 @@
+CREATE database if NOT exists XYZ;
+USE XYZ;
+CREATE table EMPLOYEEINFO(
+ID INT PRIMARY KEY,
+NAME VARCHAR(50),
+SALARY FLOAT
+);
+INSERT INTO EMPLOYEEINFO (ID, NAME, SALARY) VALUES
+(101, 'Arjun Sharma', 75000.50),
+(102, 'Priya Patel', 92000.00),
+(103, 'Rohan Das', 58500.75),
+(104, 'Ananya Iyer', 115000.00),
+(105, 'Vikram Singh', 64000.25);
+SELECT*FROM EMPLOYEEINFO;
+show tables;
